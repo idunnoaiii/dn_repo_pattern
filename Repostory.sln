@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{682660BD-0BF1-4B40-BB7A-31B4C528EF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Api", "src\Repository.Api\Repository.Api.csproj", "{3151BAEF-36AD-4071-9F43-CE608788F7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.EfCore", "src\Repository.EfCore\Repository.EfCore.csproj", "{5A8CE237-F190-437B-BFF5-E5831560642F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Domain", "src\Repository.Domain\Repository.Domain.csproj", "{D0D6BF1F-5DC8-4711-BF44-D195AB252258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3151BAEF-36AD-4071-9F43-CE608788F7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3151BAEF-36AD-4071-9F43-CE608788F7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3151BAEF-36AD-4071-9F43-CE608788F7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3151BAEF-36AD-4071-9F43-CE608788F7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8CE237-F190-437B-BFF5-E5831560642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8CE237-F190-437B-BFF5-E5831560642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8CE237-F190-437B-BFF5-E5831560642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8CE237-F190-437B-BFF5-E5831560642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D6BF1F-5DC8-4711-BF44-D195AB252258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D6BF1F-5DC8-4711-BF44-D195AB252258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D6BF1F-5DC8-4711-BF44-D195AB252258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D6BF1F-5DC8-4711-BF44-D195AB252258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3151BAEF-36AD-4071-9F43-CE608788F7F8} = {682660BD-0BF1-4B40-BB7A-31B4C528EF4D}
+		{5A8CE237-F190-437B-BFF5-E5831560642F} = {682660BD-0BF1-4B40-BB7A-31B4C528EF4D}
+		{D0D6BF1F-5DC8-4711-BF44-D195AB252258} = {682660BD-0BF1-4B40-BB7A-31B4C528EF4D}
+	EndGlobalSection
+EndGlobal
